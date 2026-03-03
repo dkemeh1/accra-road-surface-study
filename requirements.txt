@@ -1,0 +1,11 @@
+numpy
+pandas
+geopandas
+rasterio
+scikit-learn
+xgboost
+lightgbm
+joblib
+openpyxl
+xlsxwriter
+shapely
