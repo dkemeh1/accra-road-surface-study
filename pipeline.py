@@ -93,10 +93,6 @@ FEATURE_CLIP_QLOW = 0.01
 FEATURE_CLIP_QHIGH = 0.99
 THRESH_GRID = np.round(np.arange(0.05, 0.96, 0.01), 2)
 
-# CONSISTENT RULE ACROSS ALL YEARS/EXPERIMENTS (DO NOT CHANGE AFTER LOOKING):
-# - Step 5 reports BOTH best-F1 and best-BALACC
-# - Step 6 uses ONLY this selection
-THRESH_SELECTION_FOR_PREDICTION = "BALACC"   # "BALACC" or "F1"
 
 # Guardrail against class-collapse thresholds
 MIN_POS_RATE = 0.05   # at least 5% predicted positives
